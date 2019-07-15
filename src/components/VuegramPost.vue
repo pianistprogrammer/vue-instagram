@@ -15,8 +15,8 @@
     </div>
     <div class="content">
       <div class="heart">
-        <i class="fa fa-heart-o fa-lg"
-          :class="{'fas': this.post.hasBeenLiked}"
+        <i class="fa fa-lg"
+          :class="{'fa-heart fa-love': this.post.hasBeenLiked, 'fa-heart-o': !this.post.hasBeenLiked}"
           @click="like">
         </i>
       </div>

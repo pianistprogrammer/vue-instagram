@@ -101,7 +101,7 @@ export default {
         postImage: this.image,
         likes: 0,
         caption: this.caption,
-        filter: this.filterType
+        filter: this.selectedFilter
       };
       this.posts.unshift(post);
       localStorage.setItem('posts', JSON.stringify(this.posts));
