@@ -1,5 +1,5 @@
 # vuegram
-
+The data (image uploaded) is not persisted to any database, it is simply stored on the localstorage of your broswer
 ## Project setup
 ```
 npm install
